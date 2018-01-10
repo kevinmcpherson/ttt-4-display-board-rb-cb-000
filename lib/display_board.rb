@@ -3,14 +3,16 @@
 
 board      = ["x", "x", "x", "x", "x", "x", "x"]
 def display_board(board)
-  puts "#{board[0]}   |   |   "
+  puts "#{0}   |   |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   |#{3}   |   "
   puts "-----------"
   puts "   |   |   "
 end
 
 display_board(board)
+
+###{board[0]}
 
 
 colors     = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
